@@ -1,0 +1,33 @@
+{
+  "editor.tabSize": 2,
+  "workbench.editor.enablePreview": false,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+  },
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "markdown",
+  ],
+  "files.associations": {
+    "*.env.*": "dotenv",
+    "*.json": "jsonc",
+  },
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "sass",
+    "less",
+    "stylus",
+    "postcss",
+    "html",
+    "vue"
+  ],
+  "cSpell.words": [
+  ]
+}
